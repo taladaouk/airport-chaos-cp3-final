@@ -1,0 +1,6 @@
+# Scenario B: emergency insert (conflict -> offer -> accept)
+LOAD data/airport_flights.csv
+STATS
+EMERGENCY_INSERT EM90001 EM JFK BOS R1 "2026-11-27 09:00" "2026-11-27 09:05" 1 --accept
+STATS
+ANALYZE

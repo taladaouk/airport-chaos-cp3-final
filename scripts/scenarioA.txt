@@ -1,0 +1,6 @@
+# Scenario A: runway closure R1 09:00-11:00
+LOAD data/airport_flights.csv
+STATS
+RUNWAY_CLOSURE R1 "2026-11-27 09:00" "2026-11-27 11:00"
+STATS
+ANALYZE
