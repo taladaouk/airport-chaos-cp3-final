@@ -1,5 +1,3 @@
 package airport.model;
 
-public enum FlightStatus {
-    SCHEDULED, DELAYED, CANCELLED
-}
+public enum FlightStatus { SCHEDULED, DELAYED, CANCELLED }
